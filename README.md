@@ -2,26 +2,28 @@
     A Node.js + Express backend that securely fetches current weather and forecast data from the OpenWeatherMap API.
     This backend acts as a proxy, ensuring that API keys are never exposed to the frontend.
 
-🚀 Frontend Repository: https://github.com/Lakshjagtap/weatherfrontend
+🚀 Frontend Repository: 
+   
+    https://github.com/Lakshjagtap/weatherfrontend
 
 🚀 Features
 
-RESTful API with Express.js
-Fetches real-time current weather and forecast
-Secure API key management via environment variables
-Handles errors for invalid city names or API failures
-CORS enabled for frontend integration
-Automatically deployed using Render Cloud Platform with GitHub integration
+-RESTful API with Express.js
+-Fetches real-time current weather and forecast
+-Secure API key management via environment variables
+-Handles errors for invalid city names or API failures
+-CORS enabled for frontend integration
+-Automatically deployed using Render Cloud Platform with GitHub integration
 
 🛠️ Tech Stack
 
-Node.js
-Express.js
-Axios – for API requests
-dotenv – for environment variables
-CORS – cross-origin requests
-OpenWeatherMap API
-Render – cloud deployment
+-Node.js
+-Express.js
+-Axios – for API requests
+-dotenv – for environment variables
+-CORS – cross-origin requests
+-OpenWeatherMap API
+-Render – cloud deployment
 
 📌 API Endpoints
 🔹 Get Current Weather
@@ -57,12 +59,13 @@ Server runs at:
 
 🌍 Deployment on Render
 
-Backend is deployed on Render Cloud Platform
-Connected directly to GitHub for automatic deployments on push
-Environment variables are managed securely in Render dashboard
-Frontend communicates with this deployed backend to fetch weather data
+-Backend is deployed on Render Cloud Platform
+-Connected directly to GitHub for automatic deployments on push
+-Environment variables are managed securely in Render dashboard
+-Frontend communicates with this deployed backend to fetch weather data
 
 🧩 Architecture Overview
+
     Frontend (HTML, CSS, JavaScript)
             |
             | Fetch API
@@ -74,13 +77,14 @@ Frontend communicates with this deployed backend to fetch weather data
 
 🧠 What This Backend Demonstrates
 
-Secure handling of third-party APIs
-REST API design using Express
-Environment-based configuration
-Cloud deployment with GitHub CI workflow
-Separation of frontend and backend responsibilities
+-Secure handling of third-party APIs
+-REST API design using Express
+-Environment-based configuration
+-Cloud deployment with GitHub CI workflow
+-Separation of frontend and backend responsibilities
 
 👨‍💻 Author
 
-Laksh Jagtap
+Nikhil Jagtap
+    
     GitHub: https://github.com/Lakshjagtap
